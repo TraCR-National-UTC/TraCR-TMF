@@ -28,7 +28,7 @@ The repository consists of four main components:
 
 * ✅ **OpenAI API Ready**: Easily configurable with OpenAI models like GPT-4 and OpenAI Embeddings.
 
-* ✅ **Supervised Fine-Tuning Pipeline**: Leverages transfer learning on ModernBERT for multi-label classification of MITRE ATT&CK techniques in transportation CPS data flows, enhancing performance through supervised learning with ground-truth labels.
+* ✅ **Fine-Tuning Pipeline**: Leverages transfer learning on ModernBERT for multi-label classification of MITRE ATT&CK techniques in transportation CPS data flows, enhancing performance through supervised learning.
 
 ---
 
