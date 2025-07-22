@@ -1,12 +1,12 @@
 # **TraCR TMF**
 
-This repository contains a set of modular notebooks exploring different approaches to applying Large Language Models (LLMs) for cybersecurity threat intelligence, with a focus on Retrieval-Augmented Generation (RAG), In-Context Learning (ICL), and Vector Store Indexing techniques.
+This repository contains a set of modular notebooks exploring different approaches to applying Large Language Models (LLMs) for cybersecurity threat intelligence, with a focus on Retrieval-Augmented Generation (RAG), In-Context Learning (ICL), Vector Store Indexing, and Supervised Learning techniques.
 
 ## **Overview**
 
 With the rise of sophisticated cyber threats, traditional data processing pipelines often fail to capture the complex and multimodal nature of cyber incident data. This project presents a comparative and complementary approach using LLM-powered pipelines to enhance cyber threat detection, classification, and reporting—especially for transportation systems and critical infrastructure.
 
-The repository consists of three main components:
+The repository consists of four main components:
 
 * **RAG Pipeline (`RAG.ipynb`)**: Implements a retrieval-augmented generation pipeline that integrates external threat knowledge bases with LLMs to generate context-aware responses.
 
@@ -14,20 +14,11 @@ The repository consists of three main components:
 
 * **Vector Store Indexing (`Vector_Store_Index.ipynb`)**: Constructs a vector-based search index using embedding models to enable semantic similarity search and efficient retrieval of cyber incident reports.
 
----
-
-## **Repository Structure**
-
-`├── RAG.ipynb       # Retrieval-Augmented Generation pipeline with custom prompt engineering`  
-`├── ICL.ipynb       # In-Context Learning setup with multi-shot examples`  
-`├── Vector_Store_Index.ipynb   # Vector index construction and semantic search utilities`  
-`└── README.md                  # Project documentation`
+* **Supervised Learning (`Fine_Tuning.ipynb`)**: Fine-tunes a pre-treained ModernBERT model for multi-label classification to identify relevant MITRE ATT&CK techniques in transportation CPS data flows.
 
 ---
 
 ## **Key Features**
-
-* ✅ **Multimodal Data Processing**: Handles textual and tabular cyber incident data.
 
 * ✅ **Retrieval-Augmented Intelligence**: Combines LLM generative reasoning with relevant external knowledge retrieval.
 
@@ -36,6 +27,8 @@ The repository consists of three main components:
 * ✅ **Vector-Based Semantic Search**: Embeds and indexes incidents for fast and accurate similarity search.
 
 * ✅ **OpenAI API Ready**: Easily configurable with OpenAI models like GPT-4 and OpenAI Embeddings.
+
+* ✅ **Supervised Fine-Tuning Pipeline**: Leverages transfer learning on ModernBERT for multi-label classification of MITRE ATT&CK techniques in transportation CPS data flows, enhancing performance through supervised learning with ground-truth labels.
 
 ---
 
@@ -61,9 +54,11 @@ Each notebook can be executed independently. Example order of execution:
 
 1. Run `Vector_Store_Index.ipynb` to generate the vector index from your cyber incident dataset.
 
-2. Use `RAG.ipynb` to build a retrieval pipeline combining LLM with vector-based search.
+2. Run `RAG.ipynb` to build a retrieval pipeline combining LLM with vector-based search.
 
-3. Explore `ICL.ipynb` for few-shot experiments using domain-specific cyber incident examples.
+3. Run `ICL.ipynb` for few-shot experiments using domain-specific cyber incident examples.
+
+4. Run `Fine_Tuning.ipynb` and `ARC_IT_dataset_evaluation.ipynb` to train the ModernBERT model via supervised fine-tuning and evaluate its performance on the ARC-IT dataset, generating metrics such as precision, recall, F1 scores for the multi-label classification of MITRE ATT&CK techniques in transportation CPS data flows.
 
 ---
 
@@ -88,4 +83,6 @@ This work is based upon the work supported by the National Center for Transporta
 ## **License**
 
 ---
+
+https://tracr-tmf-models.s3.us-east-2.amazonaws.com/model_ckpt_kfold.zip
 
