@@ -39,7 +39,7 @@ The project is organized into folders for data, notebooks by approach, and suppo
 * `rag/`: Contains RAG.ipynb and `Vector_Store_Index.ipynb` for RAG and vector indexing.
 * `supervised_learning/`: Contains `Fine_Tuning.ipynb` for model fine-tuning and `ARC_IT_dataset_evaluation.ipynb` for evaluation on the ARC-IT dataset.
 
-Additionally, trained model checkpoints (weights) from the 5-fold cross-validation fine-tuning process are available as a zip file hosted on Amazon S3: [model_ckpt_kfold.zip](https://tracr-tmf-models.s3.us-east-2.amazonaws.com/model_ckpt_kfold.zip). These can be downloaded and used for inference or further evaluatoin in the `ARC_IT_dataset_evaluation.ipynb` notebook within the supervised learning folder.
+Additionally, trained model checkpoints from the 5-fold cross-validation fine-tuning process are available as a zip file hosted on Amazon S3: [model_ckpt_kfold.zip](https://tracr-tmf-models.s3.us-east-2.amazonaws.com/model_ckpt_kfold.zip). These can be downloaded and used for inference or further evaluatoin in the `ARC_IT_dataset_evaluation.ipynb` notebook within the supervised learning folder.
 
 ## **Getting Started**
 
