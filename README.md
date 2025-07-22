@@ -35,9 +35,9 @@ The repository consists of four main components:
 ## **Project Structure**
 The project is organized into folders for data, notebooks by approach, and supporting files. The `data/` folder contains the dataset used across notebooks and k-fold splits , particularly for supervised learning. Notebooks are mapped to their respective folders as follows:
 
-* `in_context_learning/`: Contains ICL.ipynb for in-context learning experiments.
-* `rag/`: Contains RAG.ipynb and Vector_Store_Index.ipynb for RAG and vector indexing.
-* `supervised_learning/`: Contains Fine_Tuning.ipynb for model fine-tuning and ARC_IT_dataset_evaluation.ipynb for evaluation on the ARC-IT dataset.
+* `in_context_learning/`: Contains `ICL.ipynb` for in-context learning experiments.
+* `rag/`: Contains RAG.ipynb and `Vector_Store_Index.ipynb` for RAG and vector indexing.
+* `supervised_learning/`: Contains `Fine_Tuning.ipynb` for model fine-tuning and `ARC_IT_dataset_evaluation.ipynb` for evaluation on the ARC-IT dataset.
 
 ## **Getting Started**
 
