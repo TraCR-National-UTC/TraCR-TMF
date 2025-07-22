@@ -1,0 +1,16 @@
+openai>=1.14.3
+chromadb>=0.4.22
+faiss-cpu>=1.7.4
+tqdm>=4.66.2
+pandas>=2.2.2
+numpy>=1.26.4
+scikit-learn>=1.5.0
+python-dotenv>=1.0.1
+ipykernel>=6.29.4
+jupyter>=1.0.0
+notebook>=7.2.0
+fsspec==2023.6.0
+seqeval==1.2.2
+matplotlib==3.10.0
+iterative-stratification==0.1.9
+git+https://github.com/huggingface/transformers@4.54.0.dev0
