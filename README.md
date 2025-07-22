@@ -32,7 +32,7 @@ The repository consists of four main components:
 
 ---
 
-## ** Project Structure**
+## **Project Structure**
 The project is organized into folders for data, notebooks by approach, and supporting files. The `data/` folder contains the dataset used across notebooks and k-fold splits , particularly for supervised learning. Notebooks are mapped to their respective folders as follows:
 
 * `in_context_learning/`: Contains ICL.ipynb for in-context learning experiments.
