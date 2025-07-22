@@ -48,6 +48,7 @@ You can install dependencies using:
 
 `pip install -r requirements.txt`
 
+
 ### **Usage**
 
 Each notebook can be executed independently. Example order of execution:
@@ -58,7 +59,7 @@ Each notebook can be executed independently. Example order of execution:
 
 3. Run `ICL.ipynb` for few-shot experiments using domain-specific cyber incident examples.
 
-4. Run `Fine_Tuning.ipynb` and `ARC_IT_dataset_evaluation.ipynb` to train the ModernBERT model via supervised fine-tuning and evaluate its performance on the ARC-IT dataset, generating metrics such as precision, recall, F1 scores for the multi-label classification of MITRE ATT&CK techniques in transportation CPS data flows.
+4. Run `Fine_Tuning.ipynb` and `ARC_IT_dataset_evaluation.ipynb` to train the ModernBERT model via supervised fine-tuning and evaluate its performance on the ARC-IT dataset.
 
 ---
 
